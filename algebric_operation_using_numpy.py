@@ -1,7 +1,7 @@
 import numpy as np
-c=0
 n=input("enter the length of the array:")
 m= np.array(input("enter the array :"))
+c=np.array(input("enter the arrray:"))
 print "the det of the matrix:",np.linalg.det(m)
 print "the inv of the matrix:",np.linalg.inv(m)
 print "the eigen values of the matrix:",np.linalg.eig(m)
@@ -11,3 +11,12 @@ print "the meof dian value the matrix:",np.median(m)
 print "the maximum of the matrix:",np.max(m)
 print "the minimum of the matrix:",np.min(m)
 print "the transpose of the matrix:",np.transpose(m)
+print "the sum of the matrix:",np.sum(m,c)
+print "the substraction of the matrix:",np.subtract(m)
+print "the multiplication of the matrix:",np.multiply(m)
+print"the sqaure of the matrix :",np.square(m)
+#to create the matrix by using functions
+print"the zero matrx:",np.zeros((2,2))
+print"the ones matrix:",np.ones((1,2))
+print"the idintity matrix:",np.eye(2) 
+print"the random values matrix:",np.random.random((2,2))

@@ -10,10 +10,9 @@ print "the rank of the matrix:",np.rank(m)
 print "the meof dian value the matrix:",np.median(m)
 print "the maximum of the matrix:",np.max(m)
 print "the minimum of the matrix:",np.min(m)
-print "the transpose of the matrix:",np.transpose(m)
-print "the sum of the matrix:",np.sum(m,c)
-print "the substraction of the matrix:",np.subtract(m)
-print "the multiplication of the matrix:",np.multiply(m)
+print "the transpose of the matrix:",m.T
+print "the substraction of the matrix:",np.subtract(m,c)
+print "the multiplication of the matrix:",np.multiply(m,c)
 print"the sqaure of the matrix :",np.square(m)
 #to create the matrix by using functions
 print"the zero matrx:",np.zeros((2,2))
